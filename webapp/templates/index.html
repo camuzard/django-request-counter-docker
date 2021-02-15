@@ -1,0 +1,19 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML5 template</title>
+  <meta name="description" content="Request counter">
+  <meta name="author" content="">
+
+</head>
+
+<body>
+  {% block sidebar %}{% endblock %}
+  {% block content %}
+  	<p>{{ request_number }} requests</p>
+  {% endblock %}
+</body>
+</html>
